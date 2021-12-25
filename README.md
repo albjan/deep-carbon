@@ -1,2 +1,2 @@
 # deep-carbon
-Deep learning to detect a rare species of interstellar carbon via spectral data. 
+Deep learning to discover interstellar environments containing a rare species of neutral carbon via spectral data. 
