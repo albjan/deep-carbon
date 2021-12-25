@@ -11,7 +11,8 @@ atoms within these galaxies absorb different wavelengths of light, giving rise t
 Distant galaxies containing neutral-carbon, in particular, are useful because their properties help us investigate star formation in the early universe. However, traditional computational methods for detecting absorption lines are extremely time-consuming and require frequent human intervention. Neutral-carbon lines in particular are rare, weak, and difficult to detect at exceptionally far distances. So, my research develops a convolutional neural network to detect neutral-carbon absorption lines in the Sloan Digital Sky Survey Data Release 12 (SDSS DR12) quasar spectra dataset.
 
 ## Methodology ##
-SDSS DR12 contains a sample of >500,000 quasar spectra to be searched for neutral-carbon absorption lines.
+### The Data ###
+SDSS DR12 contains a sample of >500,000 quasar spectra to be searched for neutral-carbon absorption lines. Each spectrum contains ~4,400 flux data points over a ~7,000 Å wavelength range. Neutral-carbon absorbs at 
 
 
 
