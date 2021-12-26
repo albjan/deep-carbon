@@ -18,11 +18,11 @@ Here's an example of neutral-carbon detection: its absorption appears via two we
 <img src="https://user-images.githubusercontent.com/20466488/147395188-38fa7ad8-2446-4fb5-bc96-ad0194ec1084.png" height="350">
 </p>
 
-With only 113 of these, I don't have nearly enough training samples for my CNN. The solution? Genenating artificial samples!
+With only 113 of these, I didn't have nearly enough training samples for my CNN. The solution? Genenating artificial samples!
 
 ### Generating Synthetic Training Data ###
 
-I randomly selected 20,000 spectra from a quasar spectra dataset within SDSS DR12. After some hefty pre-processing (normalizing the data, fitting the data points to a continuum, generating artificial noise, etc.), I was ready for the most important part: actually inserting synthetic neutral-carbon absorption lines into the spectra. In 10,000 samples, I inserted two absorption lines whose properties mimiced that of real neutral-carbon lines; this served as my positive sample. I left the other 10,000 alone, which served as my negative sample. An additional 4,000 samples (2,000 positive, 2,000 negative) served as testing data.
+I randomly selected 20,000 spectra from a quasar spectra dataset within SDSS DR12. After some hefty pre-processing (normalizing the data, fitting the data points to a continuum, generating artificial noise, etc.), I was ready for the most important part: actually inserting synthetic neutral-carbon absorption lines into the spectra. In what became the 10,000 positive samples, I inserted two absorption lines whose properties mimiced that of real neutral-carbon lines. I left the other 10,000 alone, which served as the negative sample. An additional 4,000 samples (2,000 positive, 2,000 negative) served as testing data.
 
 ### Data Preprocessing ###
 
