@@ -1,5 +1,5 @@
 # DeepCarbon 
-Herein lies a high-level overview of my most relevant work in detecting neutral-carbon absorption lines with deep learning. More detail in the full paper.
+Herein lies a high-level overview of my most relevant work in detecting neutral-carbon absorption lines with machine learning. More detail in the full paper.
 ## Introduction ## 
 Quasars are among the brightest and farthest known objects in the universe, emitting light that passes
 through multiple galaxies and travels for several billion years before reaching Earth. Different types of
