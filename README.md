@@ -32,7 +32,7 @@ Spectral data is one-dimensional, with the only indicator of absorption being a 
 <img src="https://user-images.githubusercontent.com/20466488/147396089-72180842-8086-4d2b-81e1-a4832fb98717.PNG" height="575">
 </p>
 
-The top left plot shows a normalized spectrum with artificially inserted noise and artificially inserted neutral-carbon lines. The bottom left plot shows the normalized spectrum for a real detected sample. However, since the final preprocessing step only keeps and concatenates the two pieces enclosed by the vertical red lines (33 data points per piece), the CNN no longer has to distinguish neutral-carbon lines from other lines. So, the final data forms of the artificial and real absorbers, shown on the top and bottom right respectively, are quite similar to each other! This data preprocessing algorithm proves useful in exposing weak spectral features.
+The top left plot shows a normalized spectrum with artificially inserted noise and artificially inserted neutral-carbon lines. The bottom left plot shows the normalized spectrum for a real detected sample. However, since the final preprocessing step only keeps and concatenates the two pieces enclosed by the vertical red lines (33 data points per piece), the CNN no longer has to distinguish neutral-carbon lines from other lines. So, the final data forms of the artificial and real samples, shown on the top and bottom right respectively, are quite similar to each other! This data preprocessing algorithm proves useful in exposing weak spectral features.
 
 ### The CNN & Results ###
 
